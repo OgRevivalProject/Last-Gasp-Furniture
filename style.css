@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #111;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 4px;
+  color: #222;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+#inventory-table {
+  border-collapse: collapse;
+  margin-bottom: 24px;
+  background: #fff;
+  min-width: 260px;
+}
+
+#inventory-table th,
+#inventory-table td {
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  text-align: left;
+}
+
+#inventory-table thead th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+#inventory-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.btn-wrap {
+  margin-top: 8px;
+}
+
+.btn-wrap.center {
+  text-align: center;
+  margin-top: 16px;
+}
+
+#purchase-btn,
+#shop-again-btn {
+  background-color: #fff;
+  color: #111;
+  border: 1px solid #aaa;
+  padding: 8px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#purchase-btn:hover,
+#shop-again-btn:hover {
+  background-color: #e8e8e8;
+}
+
+#invoice-section {
+  max-width: 560px;
+}
+
+#invoice-content {
+  margin-top: 16px;
+  font-size: 1rem;
+}
+
+#invoice-content table.items-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#invoice-content table.items-table th {
+  text-align: left;
+  font-weight: bold;
+  padding: 4px 12px 4px 0;
+  border-bottom: 1px solid #111;
+}
+
+#invoice-content table.items-table td {
+  padding: 4px 12px 4px 0;
+  text-align: left;
+}
+
+#invoice-content table.items-table td.num {
+  text-align: right;
+  padding-right: 8px;
+}
+
+#invoice-content table.items-table th.num {
+  text-align: right;
+  padding-right: 8px;
+}
+
+#invoice-content hr {
+  border: none;
+  border-top: 1px solid #888;
+  width: 55%;
+  margin: 10px 0 10px 0;
+}
+
+#invoice-content table.totals-table {
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+#invoice-content table.totals-table td {
+  padding: 3px 12px 3px 0;
+}
+
+#invoice-content table.totals-table td.t-label {
+  font-weight: bold;
+  min-width: 200px;
+}
+
+#invoice-content table.totals-table td.t-value {
+  text-align: right;
+  min-width: 80px;
+}

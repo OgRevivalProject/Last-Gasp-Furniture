@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Last Gasp Furniture – Patio furniture store" />
+  <meta name="author" content="Shane R" />
+  <title>Last Gasp Furniture</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="storefront">
+    <h1>Last Gasp Furniture</h1>
+    <p class="subtitle">Premium Patio Furniture</p>
+
+    <table id="inventory-table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Chair</td><td>$25.50</td></tr>
+        <tr><td>Recliner</td><td>$37.75</td></tr>
+        <tr><td>Table</td><td>$49.95</td></tr>
+        <tr><td>Umbrella</td><td>$24.89</td></tr>
+      </tbody>
+    </table>
+
+    <div class="btn-wrap">
+      <button id="purchase-btn" onclick="startPurchase()">Make a Purchase</button>
+    </div>
+  </div>
+
+  <div id="invoice-section" style="display:none;">
+    <h1>Last Gasp Furniture</h1>
+    <div id="invoice-content"></div>
+    <div class="btn-wrap center">
+      <button id="shop-again-btn" onclick="shopAgain()">Shop Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
